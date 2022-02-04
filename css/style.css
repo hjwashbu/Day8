@@ -6,13 +6,13 @@
 .column{
     height: 500px;
     width: 30%;
-    background-color: lavender;
-    border: 3px solid lightcoral;
-    color: lightcoral;
+    background-color: #f2e6ff;
+    border: 3px solid #ff9999;
+    color: #ff9999;
     float: left;
 }
 h1{
-    color: red;
+    color: #ff000f;
 }
 h1:after{
     content: "this is an example";
