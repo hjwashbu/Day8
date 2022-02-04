@@ -1,7 +1,22 @@
-body{
-    background-color: indianred;
+.row{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
+.column{
+    height: 500px;
+    width: 30%;
+    background-color: lavender;
+    border: 3px solid lightcoral;
+    color: lightcoral;
+    float: left;
+}
 h1{
-    color: green;
+    color: red;
+}
+h1:after{
+    content: "this is an example";
+}
+h2:before{
+    content: "this is another example";
 }
